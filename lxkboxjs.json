@@ -1,0 +1,760 @@
+{
+  "id": "lxk0301.app.sub",
+  "name": "lxk0301鑴氭湰璁㈤槄",
+  "author": "@lxk0301",
+  "icon": "https://avatars0.githubusercontent.com/u/21308593?s=52&v=4",
+  "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master/",
+  "apps": [
+    {
+      "id": "JD_Cookies",
+      "name": "浜笢澶氳处鍙� Ck 绠＄悊",
+      "keys": ["CookiesJD"],
+      "descs_html": [
+        "璇峰嬁闅忔剰鍦ㄨ緭鍏ユ淇敼鍐呭锛屽缓璁€氳繃鑴氭湰鍘昏幏鍙朿ookie锛岃嫢瑕佷慨鏀癸紝璇锋寜鐓SON 鏍煎紡淇敼锛�<a href=\"https://www.bejson.com/json/format\">鍙娇鐢ㄦJSON鏍￠獙</a> 锛夈€�",
+        "绀轰緥锛歔{\"userName\":\"jd_xxx\",\"cookie\":\"pt_key=AAJ;pt_pin=jd_xxx;\"},{\"userName\":\"jd_66\",\"cookie\":\"pt_key=AAJ;pt_pin=jd_66;\"}]",
+        "鑴氭湰鍦板潃銆�<a href=\"https://jdsharedresourcescdn.azureedge.net/jdresource/JD_extra_cookie.js\">浜笢澶� CK鑾峰彇</a>銆�,骞舵寜鐓ф鑴氭湰娉ㄩ噴杩涜閰嶇疆",
+        "浣跨敤鏂瑰紡銆�<a href=\"https://home.m.jd.com/myJd/newhome.action\">涓汉涓績</a>銆戣幏鍙栧搴旂殑鏁版嵁Code",
+        "娉細濡備笌NobyDa鐨勪含涓渃ookie閲嶅锛屽缓璁湪姝ゅ鍒犻櫎閲嶅鐨刢ookie"
+      ],
+      "settings": [
+        {
+          "id": "CookiesJD",
+          "name": "CK 鍒楄〃",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "CK 鍒楄〃 (JSON 鏍煎紡)"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/jd.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png"
+      ],
+      "author": "@dompling",
+      "repo": "https://github.com/dompling/Script",
+      "script": "https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js"
+    },
+    {
+      "id": "JD_UA",
+      "name": "鑷畾涔変含涓滆剼鏈殑UserAgent",
+      "keys": [
+        "JDUA"
+      ],
+      "descs_html": [
+        "鑷鎶撳寘浜笢APP鑾峰緱锛孶serAgent绫讳技涓嬮潰锛�",
+        "jdapp;iPhone;9.3.0;14.2;network/4g;Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1"
+      ],
+      "settings": [
+        {
+          "id": "JDUA",
+          "name": "鑷畾涔変含涓滆剼鏈殑UserAgent",
+          "val": "",
+          "type": "text",
+          "desc": "涓嶆噦涓嶇煡涓嶄細UserAgent鐨勮涓嶈闅忔剰濉啓鍐呭锛屽闇€濉啓浣跨敤寤鸿浣跨敤浜笢APP鐨刄serAgent"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/jd.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png"
+      ]
+    },
+    {
+      "id": "JS_UA",
+      "name": "鑷畾涔変含涓滄瀬閫熺増鑴氭湰鐨刄serAgent",
+      "keys": [
+        "JS_UA"
+      ],
+      "descs_html": [
+        "鑷鎶撳寘浜笢鏋侀€熺増APP鑾峰緱锛孶serAgent绫讳技涓嬮潰锛�",
+        "jdltapp;iPad;3.1.0;14.4;network/wifi;Mozilla/5.0 (iPad; CPU OS 14_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1"
+      ],
+      "settings": [
+        {
+          "id": "JS_UA",
+          "name": "鑷畾涔変含涓滄瀬閫熺増鑴氭湰鐨刄serAgent",
+          "val": "",
+          "type": "text",
+          "desc": "涓嶆噦涓嶇煡涓嶄細UserAgent鐨勮涓嶈闅忔剰濉啓鍐呭锛屽闇€濉啓浣跨敤寤鸿浣跨敤浜笢APP鐨刄serAgent"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/jd.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png"
+      ]
+    },
+    {
+      "id": "jd_fruit",
+      "name": "涓滀笢鍐滃満",
+      "keys": ["jd_fruit_inviter"],
+      "descs_html": [
+        "璇峰湪杈撳叆妗嗚緭鍏ヨ窡浣犱簰鍔╃殑涓滀笢鍐滃満鐨勫ソ鍙嬩簰鍔╃爜",
+        "鍚屼竴涓含涓滆处鍙风殑濂藉弸閭€璇风爜鐢ˊ闅斿紑,涓嶅悓浜笢璐﹀彿浜掑姪鐮佺敤鎹㈣(return鎸夐敭)闅斿紑銆備緥锛�<br/>璐﹀彿1-濂藉弸1@璐﹀彿1-濂藉弸2<br/><br/>璐﹀彿2-濂藉弸1@璐﹀彿2-濂藉弸2",
+        "涓嬫柟杈撳叆妗嗙粰鍑轰竴涓ず渚�,鑷繁浣跨敤鏃跺垹闄ょず渚嬮個璇风爜鐒跺悗鎸夌ず渚嬪～鍐欏嵆鍙�"
+      ],
+      "settings": [
+        {
+          "id": "jdFruitNotify",
+          "name": "闈欓粯杩愯",
+          "val": false,
+          "type": "boolean",
+          "desc": "杩愯涓滀笢鍐滃満鑴氭湰鏃朵笉鍙戝嚭绯荤粺閫氱煡"
+        },
+        {
+          "id": "jdFruitBeanCard",
+          "name": "浣跨敤姘存淮鎹㈣眴鍗�",
+          "val": false,
+          "type": "boolean",
+          "desc": "浣跨敤姘存淮鎹㈣眴鍗�(濡傛灉鍑虹幇闄愭椂娲诲姩鏄�100g姘存崲20璞�,姝ゆ椂姣旀祰姘村垝绠�,鎺ㄨ崘鎹㈣眴)"
+        },
+        {
+          "id": "jd_fruit_inviter",
+          "name": "涓滀笢鍐滃満濂藉弸閭€璇风爜 鍒楄〃",
+          "val": "璐﹀彿1鐨勫ソ鍙�1閭€璇风爜@璐﹀彿1鐨勫ソ鍙�2閭€璇风爜\n\n璐﹀彿2鐨勫ソ鍙�1閭€璇风爜@璐﹀彿2鐨勫ソ鍙�2閭€璇风爜",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "濂藉弸閭€璇风爜,鍚屼竴涓含涓滆处鍙风殑濂藉弸閭€璇风爜鐢ˊ闅斿紑,涓嶅悓浜笢璐﹀彿浜掑姪鐮佺敤鎹㈣(return鎸夐敭)闅斿紑"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "script": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_fruit.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdnc_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png"
+      ]
+    },
+    {
+      "id": "jd_pet",
+      "name": "涓滀笢钀屽疇",
+      "keys": ["jd_pet_inviter"],
+      "descs_html": [
+        "璇峰湪杈撳叆妗嗚緭鍏ヨ窡浣犱簰鍔╃殑涓滀笢钀屽疇鐨勫ソ鍙嬩簰鍔╃爜",
+        "鍚屼竴涓含涓滆处鍙风殑濂藉弸閭€璇风爜鐢ˊ闅斿紑,涓嶅悓浜笢璐﹀彿浜掑姪鐮佺敤鎹㈣(return鎸夐敭)闅斿紑銆備緥锛�<br/>璐﹀彿1-濂藉弸1@璐﹀彿1-濂藉弸2<br/><br/>璐﹀彿2-濂藉弸1@璐﹀彿2-濂藉弸2",
+        "涓嬫柟杈撳叆妗嗙粰鍑轰竴涓ず渚�,鑷繁浣跨敤鏃跺垹闄ょず渚嬮個璇风爜鐒跺悗鎸夌ず渚嬪～鍐欏嵆鍙�"
+      ],
+      "settings": [
+        {
+          "id": "jdPetNotify",
+          "name": "闈欓粯杩愯",
+          "val": false,
+          "type": "boolean",
+          "desc": "杩愯涓滀笢钀屽疇鑴氭湰鏃朵笉鍙戝嚭绯荤粺閫氱煡"
+        },
+        {
+          "id": "jd_pet_inviter",
+          "name": "涓滀笢钀屽疇濂藉弸閭€璇风爜 鍒楄〃",
+          "val": "璐﹀彿1鐨勫ソ鍙�1閭€璇风爜@璐﹀彿1鐨勫ソ鍙�2閭€璇风爜\n\n璐﹀彿2鐨勫ソ鍙�1閭€璇风爜@璐﹀彿2鐨勫ソ鍙�2閭€璇风爜",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "濂藉弸閭€璇风爜,鍚屼竴涓含涓滆处鍙风殑濂藉弸閭€璇风爜鐢ˊ闅斿紑,涓嶅悓浜笢璐﹀彿浜掑姪鐮佺敤鎹㈣(return鎸夐敭)闅斿紑"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "script": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_pet.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdmc_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdmc.png"
+      ]
+    },
+    {
+      "id": "jd_plantBean",
+      "name": "浜笢绉嶈眴",
+      "keys": ["jd_plantbean_inviter"],
+      "descs_html": [
+        "璇峰湪杈撳叆妗嗚緭鍏ヨ窡浣犱簰鍔╃殑浜笢绉嶈眴寰楄眴鐨勫ソ鍙嬩簰鍔╃爜",
+        "鍚屼竴涓含涓滆处鍙风殑濂藉弸閭€璇风爜鐢ˊ闅斿紑,涓嶅悓浜笢璐﹀彿浜掑姪鐮佺敤鎹㈣(return鎸夐敭)闅斿紑銆備緥锛�<br/>璐﹀彿1-濂藉弸1@璐﹀彿1-濂藉弸2<br/><br/>璐﹀彿2-濂藉弸1@璐﹀彿2-濂藉弸2",
+        "涓嬫柟杈撳叆妗嗙粰鍑轰竴涓ず渚�,鑷繁浣跨敤鏃跺垹闄ょず渚嬮個璇风爜鐒跺悗鎸夌ず渚嬪～鍐欏嵆鍙�"
+      ],
+      "settings": [
+        {
+          "id": "jdPlantBeanNotify",
+          "name": "闈欓粯杩愯",
+          "val": true,
+          "type": "boolean",
+          "desc": "杩愯绉嶈眴鑴氭湰鏃朵笉鍙戝嚭绯荤粺閫氱煡"
+        },
+        {
+          "id": "jd_plantbean_inviter",
+          "name": "浜笢绉嶈眴濂藉弸閭€璇风爜 鍒楄〃",
+          "val": "璐﹀彿1鐨勫ソ鍙�1閭€璇风爜@璐﹀彿1鐨勫ソ鍙�2閭€璇风爜\n\n璐﹀彿2鐨勫ソ鍙�1閭€璇风爜@璐﹀彿2鐨勫ソ鍙�2閭€璇风爜",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "濂藉弸閭€璇风爜,鍚屼竴涓含涓滆处鍙风殑濂藉弸閭€璇风爜鐢ˊ闅斿紑,涓嶅悓浜笢璐﹀彿浜掑姪鐮佺敤鎹㈣(return鎸夐敭)闅斿紑"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "script": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_plantBean.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdzd_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdzd.png"
+      ]
+    },
+    {
+      "id": "jd_Joy",
+      "name": "瀹犳豹姹�",
+      "keys": [],
+      "settings": [
+        {
+          "id": "jdJoyNotify",
+          "name": "闈欓粯杩愯",
+          "val": true,
+          "type": "boolean",
+          "desc": "杩愯瀹犳豹姹�(jd_joy.js)鑴氭湰鏃朵笉鍙戝嚭绯荤粺寮圭獥閫氱煡"
+        },
+        {
+          "id": "jdJoyStealNotify",
+          "name": "闈欓粯杩愯",
+          "val": false,
+          "type": "boolean",
+          "desc": "杩愯瀹犳豹姹�(jd_joy_steal.js)鑴氭湰鏃朵笉鍙戝嚭绯荤粺寮圭獥閫氱煡"
+        },
+        {
+          "id": "joyFeedCount",
+          "name": "姣忔鍠傚吇鏁伴噺锛堥粯璁�10g锛�",
+          "val": "10",
+          "type": "radios",
+          "desc": "姣忔鍠傚吇鐙楃伯鍏嬫暟(榛樿10g)",
+          "items": [
+            {
+              "key": "0",
+              "label": "涓嶅杺椋�"
+            },
+            {
+              "key": "10",
+              "label": "娑堣€�10g"
+            },
+            {
+              "key": "20",
+              "label": "娑堣€�20g"
+            },
+            {
+              "key": "40",
+              "label": "娑堣€�40g"
+            },
+            {
+              "key": "80",
+              "label": "娑堣€�80g"
+            }
+          ]
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "script": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdcww_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
+      ]
+    },
+    {
+      "id": "jd_Joy_Reward",
+      "name": "瀹犳豹姹Н鍒嗗厬鎹含璞�",
+      "keys": [],
+      "settings": [
+        {
+          "id": "jdJoyRewardNotify",
+          "name": "闈欓粯杩愯",
+          "val": false,
+          "type": "boolean",
+          "desc": "寮€鍚悗鎴愬姛鍏戞崲鍒颁含璞嗕篃涓嶅彂鍑虹郴缁熷脊绐楅€氱煡"
+        },
+        {
+          "id": "joyRewardName",
+          "name": "鏄惁鍏戞崲浜眴",
+          "val": "1",
+          "type": "radios",
+          "desc": "榛樿寮€鍚厬鎹紝濡備笉鎯冲厬鎹㈠彲閫夋嫨涓嶅厬鎹�",
+          "items": [
+            {
+              "key": "0",
+              "label": "涓嶅厬鎹㈠鍝�(閫夋嫨姝ら」灏嗕笉鍏戞崲濂栧搧)"
+            },
+            {
+              "key": "1",
+              "label": "鍏戞崲20浜眴"
+            },
+            {
+              "key": "500",
+              "label": "鍏戞崲500浜眴"
+            },
+            {
+              "key": "1000",
+              "label": "鍏戞崲1000浜眴"
+            }
+          ]
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "script": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_reward.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdcww_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
+      ]
+    },
+    {
+      "id": "jd_Joy_Run",
+      "name": "瀹犳豹姹個璇峰姪鍔涗笌璧涜窇鍔╁姏",
+      "keys": [
+        "jdJoyRunToken",
+        "jd_joy_run_name",
+        "jd_joy_invite_pin",
+        "jd_joy_run_pin",
+        "jd2_joy_run_name",
+        "jd2_joy_invite_pin",
+        "jd2_joy_run_pin"
+      ],
+      "desc": "瀹犳豹姹殑浜掑姪鐮乫riendPin鏄含涓滅敤鎴峰悕,涓嶆槸鏄电О(鍙湪浜笢APP->鎴戠殑->璁剧疆鏌ョ湅)銆備簰鍔╃爜涔嬮棿鐢ㄨ嫳鏂囬€楀彿闅斿紑,涓嬮潰缁欏嚭鍏蜂綋绀轰緥,浣跨敤鏃跺彲鑷娓呯┖閲嶆柊鎸夋牸寮忓～鍐欎綘鑷繁鐨�",
+      "settings": [
+        {
+          "id": "joyRunFlag",
+          "name": "鏄惁鍙傚姞璧涜窇(榛樿鍙傚姞)",
+          "val": true,
+          "type": "boolean",
+          "desc": "寮€鍚剼鏈皢浼氫负鎮ㄨ嚜鍔ㄥ弬鍔犺禌璺�(榛樿鍙傚姞鍙屼汉璧涜窇)"
+        },
+        {
+          "id": "JOY_TEAM_LEVEL",
+          "name": "瀹犳豹姹禌璺戠骇鍒€夋嫨",
+          "val": "2",
+          "type": "text",
+          "desc": "鍙傚姞澶氬皯浜虹殑璧涜窇姣旇禌锛屽叾涓�2浠ｈ〃鍙傚姞鍙屼汉PK璧涳紝10浠ｈ〃鍙傚姞10浜虹獊鍥磋禌锛�50浠ｈ〃鍙傚姞50浜烘寫鎴樿禌锛屽璐﹀彿鍙傚姞涓嶅悓绾у埆鐨勮禌璺戠敤&绗﹀彿闅斿紑,渚嬪2&10&50"
+        },
+        {
+          "id": "joyRunNotify",
+          "name": "瀹犳豹姹禌璺戣幏鑳滄槸鍚﹂€氱煡",
+          "val": true,
+          "type": "boolean",
+          "desc": "瀹犳豹姹禌璺戣幏鑳滄槸鍚﹂€氱煡锛岄粯璁ら€氱煡"
+        },
+        {
+          "id": "jd_joy_run_name",
+          "name": "浜笢璐﹀彿涓€鏄电О",
+          "val": "",
+          "type": "text",
+          "desc": "浜笢璐﹀彿鏄电О,鐢ㄤ簬鍖哄垎鑷繁鐨勪含涓滆处鍙�(闈炲繀濉紝寤鸿澶氫釜浜笢璐﹀彿浣跨敤)"
+        },
+        {
+          "id": "jd_joy_invite_pin",
+          "name": "璐﹀彿涓€閭€璇峰姪鍔沠riendPin鍚嶅崟",
+          "val": "jd_6cd93e613b0e5,琚姌鍙犵殑璁板繂33",
+          "type": "text",
+          "desc": "澶氫釜璐﹀彿浣跨敤鑻辨枃閫楀彿','闅斿紑,鏈€澶�3涓�"
+        },
+        {
+          "id": "jd_joy_run_pin",
+          "name": "璐﹀彿涓€璧涜窇鍔╁姏friendPin鍚嶅崟",
+          "val": "jd_6cd93e613b0e5,琚姌鍙犵殑璁板繂33",
+          "type": "text",
+          "desc": "澶氫釜璐﹀彿浣跨敤鑻辨枃閫楀彿','闅斿紑,鏈€澶�6涓�"
+        },
+        {
+          "id": "jd2_joy_run_name",
+          "name": "浜笢璐﹀彿浜屾樀绉�",
+          "val": "",
+          "type": "text",
+          "desc": "浜笢璐﹀彿鏄电О,鐢ㄤ簬鍖哄垎鑷繁鐨勪含涓滆处鍙�(闈炲繀濉紝寤鸿澶氫釜浜笢璐﹀彿浣跨敤)"
+        },
+        {
+          "id": "jd2_joy_invite_pin",
+          "name": "璐﹀彿浜岄個璇峰姪鍔沠riendPin鍚嶅崟",
+          "val": "jd_6cd93e613b0e5,琚姌鍙犵殑璁板繂33",
+          "type": "text",
+          "desc": "澶氫釜璐﹀彿浣跨敤鑻辨枃閫楀彿','闅斿紑,鏈€澶�3涓�"
+        },
+        {
+          "id": "jd2_joy_run_pin",
+          "name": "璐﹀彿浜岃禌璺戝姪鍔沠riendPin鍚嶅崟",
+          "val": "jd_6cd93e613b0e5,琚姌鍙犵殑璁板繂33",
+          "type": "text",
+          "desc": "澶氫釜璐﹀彿浣跨敤鑻辨枃閫楀彿','闅斿紑,鏈€澶�6涓�"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "script": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_run.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdcww_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
+      ]
+    },
+    {
+      "id": "jd_MoneyTree",
+      "name": "浜笢鎽囬挶鏍�",
+      "keys": [],
+      "settings": [
+        {
+          "id": "jdMoneyTreeNotify",
+          "name": "闈欓粯杩愯",
+          "val": true,
+          "type": "boolean",
+          "desc": "杩愯浜笢鎽囬挶鏍戣剼鏈椂涓嶅彂鍑虹郴缁熷脊绐楅€氱煡"
+        },
+        {
+          "id": "MONEY_TREE_SELL_FRUIT",
+          "name": "鏄惁鍗栧嚭閲戞灉鑾峰緱閲戝竵",
+          "val": false,
+          "type": "boolean",
+          "desc": "鏄惁鍗栧嚭閲戞灉鑾峰緱閲戝竵,閲戝竵鍏锋湁鏈夋晥鏈燂紝榛樿涓嶅崠鍑�"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "script": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_moneyTree.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdyqs_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdyqs.png"
+      ]
+    },
+    {
+      "id": "jd_Speed",
+      "name": "浜笢澶╁ぉ鍔犻€�",
+      "keys": [],
+      "settings": [
+        {
+          "id": "jdSpeedNotify",
+          "name": "闈欓粯杩愯",
+          "val": true,
+          "type": "boolean",
+          "desc": "杩愯浜笢澶╁ぉ鍔犻€熻剼鏈椂涓嶅彂鍑虹郴缁熷脊绐楅€氱煡"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "script": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_speed.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdjs_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdjs.png"
+      ]
+    },
+    {
+      "id": "jdUnsubscribe",
+      "name": "鍙栧叧浜笢搴楅摵鍜屽晢鍝�",
+      "keys": [
+        "jdUnsubscribeStopGoods",
+        "jdUnsubscribeStopShop"
+      ],
+      "settings": [
+        {
+          "id": "jdUnsubscribeNotify",
+          "name": "闈欓粯杩愯",
+          "val": false,
+          "type": "boolean",
+          "desc": "杩愯鑴氭湰鏃朵笉鍙戝嚭绯荤粺寮圭獥閫氱煡"
+        },
+        {
+          "id": "jdUnsubscribePageSize",
+          "name": "鍙栨秷宸插叧娉ㄥ晢鍝佺殑鏁伴噺",
+          "val": 10,
+          "type": "number",
+          "desc": "杩愯涓€娆¤剼鏈彇娑堝灏戜釜宸插叧娉ㄧ殑鍟嗗搧锛堥粯璁�10涓�,杈撳叆0琛ㄧず涓嶅彇鍏筹級"
+        },
+        {
+          "id": "jdUnsubscribeShopPageSize",
+          "name": "鍙栨秷宸插叧娉ㄥ簵閾虹殑鏁伴噺",
+          "val": 10,
+          "type": "number",
+          "desc": "杩愯涓€娆¤剼鏈彇娑堝灏戜釜宸插叧娉ㄧ殑搴楅摵锛堥粯璁�10涓�,杈撳叆0琛ㄧず涓嶅彇鍏筹級"
+        },
+        {
+          "id": "jdUnsubscribeStopGoods",
+          "name": "閬囧埌姝ゅ晢鍝佷笉鍐嶈繘琛屽彇鍏�",
+          "val": "",
+          "type": "text",
+          "desc": "鍖归厤鍒版澶勫晢鍝佸悗闈�(鍖呮嫭姝ゅ晢鍝�)涓嶅啀杩涜鍙栧叧(姝ゅ鍐呭闇€鍘诲晢鍝佽鎯呴〉闀挎寜锛堣嚜钀ュ锛夋枃瀛楁嫹璐濆晢鍝佷俊鎭�)"
+        },
+        {
+          "id": "jdUnsubscribeStopShop",
+          "name": "閬囧埌姝ゅ簵閾轰笉鍐嶈繘琛屽彇鍏�",
+          "val": "",
+          "type": "text",
+          "desc": "鍖归厤鍒版澶勫簵閾哄悗闈�(鍖呮嫭姝ゅ簵閾�)鐨勪笉鍐嶈繘琛屽彇鍏�(姝ゅ鍐呭璇峰敖閲忎粠澶村紑濮嬭緭鍏ュ簵閾哄悕绉�)"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "script": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/jd.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png"
+      ]
+    },
+    {
+      "id": "jd_SuperMarket",
+      "name": "涓滀笢瓒呭競",
+      "keys": [],
+      "settings": [
+        {
+          "id": "jdSuperMarketNotify",
+          "name": "闈欓粯杩愯",
+          "val": true,
+          "type": "boolean",
+          "desc": "杩愯姝よ剼鏈椂涓嶅彂鍑虹郴缁熷脊绐楅€氱煡"
+        },
+        {
+          "id": "JOIN_PK_TEAM",
+          "name": "鑷姩鍙傚姞浣滆€匬K闃熶紞",
+          "val": true,
+          "type": "boolean",
+          "desc": "姣忔pk娲诲姩鑷姩鍙傚姞浣滆€匬K闃熶紞锛岄粯璁ゅ弬鍔�"
+        },
+        {
+          "id": "jdSuperMarketLottery",
+          "name": "鎶藉(鎷涜储杩涘疂)",
+          "val": false,
+          "type": "boolean",
+          "desc": "杩愯鑴氭湰娑堣€楅噾甯佽繘琛屾娊濂栵紝榛樿鎶藉"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "scripts":[
+        {
+          "name" : "涓滀笢瓒呭競",
+          "script" : "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_superMarket.js"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jxc_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jxc.png"
+      ]
+    },
+    {
+      "id": "jd_SuperMarket_Reawrd",
+      "name": "涓滀笢瓒呭競鍏戞崲濂栧搧",
+      "keys": [
+        "coinToBeans"
+      ],
+      "desc": "榛樿涓嶅厬鎹㈠鍝�,渚嬪:鍏戞崲20浜眴杈撳叆20,鍏戞崲1000浜眴杈撳叆1000,鍏戞崲 鏌犳鏋滈娲楁墜娑诧紝 杈撳叆 鏌犳鏋滈娲楁墜娑层€傚叾浠栬缁嗙殑濂栧搧鍚嶇О鍘讳笢涓滆秴甯傛椿鍔ㄩ〉闈㈡煡鐪�",
+      "settings": [
+        {
+          "id": "jdSuperMarketRewardNotify",
+          "name": "闈欓粯杩愯",
+          "val": false,
+          "type": "boolean",
+          "desc": "寮€鍚悗鎴愬姛鍏戞崲鍒板鍝佷笉鍙戝嚭绯荤粺寮圭獥閫氱煡"
+        },
+        {
+          "id": "coinToBeans",
+          "name": "鍏戞崲濂栧搧锛堥粯璁や笉鍏戞崲锛�",
+          "val": "0",
+          "type": "text",
+          "desc": "杈撳叆鍏戞崲濂栧搧鍚嶇О(榛樿涓嶅厬鎹㈠鍝�)"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "scripts": [
+        {
+          "name" : "涓滀笢瓒呭競鍏戞崲濂栧搧",
+          "script" : "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_blueCoin.js"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jxc_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jxc.png"
+      ]
+    },
+    {
+      "id": "lxk0301Webhook",
+      "name": "Webhook",
+      "keys": [
+        "ACTIONS_TRIGGER_TOKEN",
+        "githubUser",
+        "repo",
+        "TRIGGER_KEYWORDS"
+      ],
+      "settings": [
+        {
+          "id": "ACTIONS_TRIGGER_TOKEN",
+          "name": "github token",
+          "val": "",
+          "type": "text",
+          "desc": "鐢宠鏁欑▼:https://www.jianshu.com/p/bb82b3ad1d11 璁板緱鍕鹃€塺epo鏉冮檺灏辫"
+        },
+        {
+          "id": "githubUser",
+          "name": "github 鐢ㄦ埛鍚�",
+          "val": "",
+          "type": "text",
+          "desc": "渚嬪锛歭xk0301"
+        },
+        {
+          "id": "repo",
+          "name": "浠撳簱鍚嶇О",
+          "val": "",
+          "type": "text",
+          "desc": "渚嬪锛歴cripts"
+        },
+        {
+          "id": "TRIGGER_KEYWORDS",
+          "name": "瑙﹀彂鍏抽敭璇�",
+          "val": "",
+          "type": "text",
+          "desc": ".github/workflows/璺緞閲岄潰yml鏂囦欢repository_dispatch椤圭洰鐨則ypes鍊硷紝渚嬪jd_fruit.yml閲岄潰鐨勫€间负fruit,澶氫釜浣跨敤鑻辨枃閫楀彿','闅斿紑"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "script": "https://jdsharedresourcescdn.azureedge.net/jdresource/webhook.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/webhooks_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/webhooks.png"
+      ]
+    },
+    {
+      "id": "xmSports",
+      "name": "灏忕背杩愬姩",
+      "keys": [
+        "xmSportsToken",
+        "xmMinStep",
+        "xmMaxStep"
+      ],
+      "settings": [
+        {
+          "id": "xmSportsToken",
+          "name": "灏忕背杩愬姩Token",
+          "val": "",
+          "type": "text",
+          "desc": "灏忕背杩愬姩鐧诲綍鏃惰幏鍙栫殑token"
+        },
+        {
+          "id": "xmMinStep",
+          "name": "鏈€灏忚繍鍔ㄦ鏁�",
+          "val": "19000",
+          "type": "text",
+          "desc": "闇€瑕佷慨鏀规渶灏忕殑杩愬姩姝ユ暟鐨勬暟瀛�,渚嬪:19000"
+        },
+        {
+          "id": "xmMaxStep",
+          "name": "鏈€澶ц繍鍔ㄦ鏁�",
+          "val": "25000",
+          "type": "text",
+          "desc": "闇€瑕佷慨鏀规渶灏忕殑杩愬姩姝ユ暟鐨勬暟瀛�,渚嬪:25000"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "script": "https://jdsharedresourcescdn.azureedge.net/jdresource/xmSports.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/xmyd_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png"
+      ]
+    },
+    {
+      "id": "lxk_jdfactory",
+      "name": "涓滀笢宸ュ巶",
+      "keys": [
+        "FACTORAY_WANTPRODUCT_NAME"
+      ],
+      "settings": [
+        {
+          "id": "FACTORAY_WANTPRODUCT_NAME",
+          "name": "蹇冧华鍟嗗搧鍚嶇О",
+          "val": "",
+          "type": "text",
+          "desc": "璇峰敖閲忓～鍐欏畬鏁村拰鍒殑鍟嗗搧鏈夊尯鍒嗗害"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "script": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jdfactory.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jd_factory_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jd_factory.png"
+      ]
+    },
+    {
+      "id": "jd_dreamFactory",
+      "name": "浜枩宸ュ巶",
+      "keys": ["jd_jxFactory"],
+      "descs_html": [
+        "璇峰湪杈撳叆妗嗚緭鍏ヨ窡浣犱簰鍔╃殑浜枩宸ュ巶鐨勫ソ鍙嬩簰鍔╃爜",
+        "鍚屼竴涓含涓滆处鍙风殑濂藉弸閭€璇风爜鐢ˊ闅斿紑,涓嶅悓浜笢璐﹀彿浜掑姪鐮佺敤鎹㈣(return鎸夐敭)闅斿紑銆備緥锛�<br/>璐﹀彿1-濂藉弸1@璐﹀彿1-濂藉弸2<br/><br/>璐﹀彿2-濂藉弸1@璐﹀彿2-濂藉弸2",
+        "涓嬫柟杈撳叆妗嗙粰鍑轰竴涓ず渚�,鑷繁浣跨敤鏃跺垹闄ょず渚嬮個璇风爜鐒跺悗鎸夌ず渚嬪～鍐欏嵆鍙�"
+      ],
+      "settings": [
+        {
+          "id": "jd_jxFactory",
+          "name": "浜枩宸ュ巶濂藉弸閭€璇风爜 鍒楄〃",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "浜枩宸ュ巶閭€璇风爜,鍚屼竴涓含涓滆处鍙风殑濂藉弸閭€璇风爜鐢ˊ闅斿紑,涓嶅悓浜笢璐﹀彿浜掑姪鐮佺敤鎹㈣(return鎸夐敭)闅斿紑"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdgc_mini.png",
+        "https://github.com/58xinian/icon/raw/master/jdgc.png"
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "script": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_dreamFactory.js"
+    },
+    {
+      "id": "jd_jxCFD_invites",
+      "name": "浜枩璐㈠瘜宀�",
+      "keys": ["jd_jxCFD"],
+      "descs_html": [
+        "璇峰湪杈撳叆妗嗚緭鍏ヨ窡浣犱簰鍔╃殑浜枩璐㈠瘜宀涚殑濂藉弸浜掑姪鐮�",
+        "鍚屼竴涓含涓滆处鍙风殑濂藉弸閭€璇风爜鐢ˊ闅斿紑,涓嶅悓浜笢璐﹀彿浜掑姪鐮佺敤鎹㈣(return鎸夐敭)闅斿紑銆備緥锛�<br/>璐﹀彿1-濂藉弸1@璐﹀彿1-濂藉弸2<br/><br/>璐﹀彿2-濂藉弸1@璐﹀彿2-濂藉弸2",
+        "涓嬫柟杈撳叆妗嗙粰鍑轰竴涓ず渚�,鑷繁浣跨敤鏃跺垹闄ょず渚嬮個璇风爜鐒跺悗鎸夌ず渚嬪～鍐欏嵆鍙�"
+      ],
+      "settings": [
+        {
+          "id": "jd_jxCFD",
+          "name": "浜枩璐㈠瘜宀涘ソ鍙嬮個璇风爜 鍒楄〃",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "浜枩璐㈠瘜宀涢個璇风爜,鍚屼竴涓含涓滆处鍙风殑濂藉弸閭€璇风爜鐢ˊ闅斿紑,涓嶅悓浜笢璐﹀彿浜掑姪鐮佺敤鎹㈣(return鎸夐敭)闅斿紑"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jxcfd_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png"
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "script": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_cfd.js"
+    },
+    {
+      "id": "jd_jxd",
+      "name": "浜皬鍏�",
+      "keys": [],
+      "settings": [
+        {
+          "id": "jdJxdExchange",
+          "name": "鑷姩鎶婃娊濂栧嵎鍏戞崲涓哄厬甯�",
+          "val": false,
+          "type": "boolean",
+          "desc": "鑷姩鎶婃娊濂栧嵎鍏戞崲涓哄厬甯�,榛樿鍏抽棴"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "scripts":[
+        {
+          "name" : "浜皬鍏�",
+          "script" : "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jxd.js"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jd_jxd_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jd_jxd.png"
+      ]
+    }
+  ]
+}
